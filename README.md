@@ -41,6 +41,14 @@ Bu proje, **BLM230 — Bilgisayar Mimarisi** dersi kapsamında geliştirilmiş, 
 
 ---
 
+## Video
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=oh1wg8sWNEA/">Demo Videosu</a>
+</p>
+
+
+
 ## 📐 Hamming Kodu Teorisi
 
 **Hamming kodları**, iletim veya depolama sırasında hataların tespit edilip düzeltilebilmesi için veri kelimesine fazladan parite bitleri ekler.
