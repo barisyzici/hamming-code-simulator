@@ -41,47 +41,6 @@ Bu proje, **BLM230 — Bilgisayar Mimarisi** dersi kapsamında geliştirilmiş, 
 
 ---
 
-## 🚀 Kurulum
-
-### Gereksinimler
-
-- [Node.js](https://nodejs.org/) v18 veya üstü
-- npm v9 veya üstü
-
-### Adımlar
-
-```bash
-# 1. Depoyu klonlayın
-git clone https://github.com/barisyzici/hamming-code-simulator.git
-
-# 2. Proje dizinine girin
-cd hamming-code-simulator
-
-# 3. Bağımlılıkları yükleyin
-npm install
-
-# 4. Geliştirme sunucusunu başlatın
-npm run dev
-```
-
-Tarayıcınızda [http://localhost:5173](http://localhost:5173) adresini açın.
-
-### Üretim Derlemesi
-
-```bash
-npm run build
-```
-
-Derleme çıktısı `dist/` dizininde oluşturulur.
-
-### GitHub Pages'e Dağıtım
-
-```bash
-npm run deploy
-```
-
----
-
 ## 📐 Hamming Kodu Teorisi
 
 **Hamming kodları**, iletim veya depolama sırasında hataların tespit edilip düzeltilebilmesi için veri kelimesine fazladan parite bitleri ekler.
