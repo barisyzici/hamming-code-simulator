@@ -16,12 +16,6 @@
 
 <br/>
 
-<p align="center">
-  <a href="https://barisyzici.github.io/hamming-code-simulator/">
-    <img src="https://img.shields.io/badge/🚀%20Canlı%20Demo'yu%20Görüntüle-Tıkla-blue?style=for-the-badge" alt="Canlı Demo">
-  </a>
-</p>
-
 ---
 
 ## 📖 Hakkında
