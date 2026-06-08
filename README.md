@@ -1,94 +1,94 @@
 <h1 align="center">
-  🔢 Hamming Error-Correcting Code Simulator
+  🔢 Hamming Hata Düzeltme Kodu Simülatörü
 </h1>
 
 <p align="center">
-  <strong>An interactive, visual simulator for understanding Hamming (SEC-DED) error-correcting codes</strong>
+  <strong>Hamming (SEC-DED) hata düzeltme kodlarını görsel olarak anlamak için etkileşimli bir simülatör</strong>
 </p>
 
 <p align="center">
   <a href="https://reactjs.org/"><img src="https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React"></a>
   <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-5.4.2-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"></a>
   <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-3.x-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License"></a>
-  <a href="https://barisyzici.github.io/hamming-code-simulator/"><img src="https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/Lisans-MIT-green?style=for-the-badge" alt="MIT Lisansı"></a>
+  <a href="https://barisyzici.github.io/hamming-code-simulator/"><img src="https://img.shields.io/badge/Canlı%20Demo-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white" alt="Canlı Demo"></a>
 </p>
 
 <p align="center">
-  <a href="https://barisyzici.github.io/hamming-code-simulator/">Live Demo</a>
+  <a href="https://barisyzici.github.io/hamming-code-simulator/">Canlı Demo</a>
 </p>
 
 <br/>
 
-![Screenshot](screenshot.png)
+![Ekran Görüntüsü](screenshot.png)
 
 <br/>
 
 <p align="center">
   <a href="https://barisyzici.github.io/hamming-code-simulator/">
-    <img src="https://img.shields.io/badge/🚀%20View%20Live%20Demo-Click%20Here-blue?style=for-the-badge" alt="Live Demo Button">
+    <img src="https://img.shields.io/badge/🚀%20Canlı%20Demo'yu%20Görüntüle-Tıkla-blue?style=for-the-badge" alt="Canlı Demo">
   </a>
 </p>
 
 ---
 
-## 📖 About
+## 📖 Hakkında
 
-This project is an educational, interactive simulator for **Hamming Single Error Correction, Double Error Detection (SEC-DED)** codes, built as a course project for **BLM230 — Computer Architecture**.
+Bu proje, **BLM230 — Bilgisayar Mimarisi** dersi kapsamında geliştirilmiş, **Hamming Tek Hata Düzeltme / Çift Hata Tespit (SEC-DED)** kodlarını görselleştiren eğitici ve etkileşimli bir simülatördür.
 
-It allows you to encode binary data with Hamming parity bits, inject bit-flip errors at any position, and watch the **syndrome-based detection and correction** algorithm locate and fix errors automatically — all visualized step-by-step in a clean dark-themed UI.
-
----
-
-## ✨ Features
-
-- 🧮 **Multi-width support** — Encode 8-bit, 16-bit, and 32-bit data words
-- 🔴🔵 **Color-coded bit visualization** — Parity bits in **red**, data bits in **blue** for instant clarity
-- ⚡ **Real-time encoding** — Hamming codeword generated and displayed immediately
-- 💥 **Error injection** — Click any bit to flip it and simulate a transmission error
-- 🔍 **Syndrome computation** — Automatic XOR-based syndrome calculation pinpoints the faulty bit
-- ✅ **Auto-correction** — Single-bit errors detected and corrected; double-bit errors flagged
-- 📊 **Figure 5.7 flow diagram** — Interactive SVG flowchart illustrating the decoding algorithm
-- 🔔 **Toast notifications** — Instant feedback for encoding, error detection, and correction events
-- 🛡️ **Input validation** — Prevents invalid inputs with descriptive error messages
-- 🌙 **Dark theme** — Sleek, eye-friendly dark UI designed for extended study sessions
+İkili veriyi Hamming parite bitleriyle kodlayabilir, herhangi bir konuma bit-flip hatası enjekte edebilir ve **sendrom tabanlı tespit & düzeltme** algoritmasının hatalı biti adım adım nasıl bulup düzelttiğini temiz ve koyu temalı bir arayüzde izleyebilirsiniz.
 
 ---
 
-## 🚀 Getting Started
+## ✨ Özellikler
 
-### Prerequisites
+- 🧮 **Çoklu genişlik desteği** — 8-bit, 16-bit ve 32-bit veri kelimelerini kodlayın
+- 🔴🔵 **Renk kodlu bit görselleştirme** — Parite bitleri **kırmızı**, veri bitleri **mavi**
+- ⚡ **Gerçek zamanlı kodlama** — Hamming kod kelimesi anında üretilip gösterilir
+- 💥 **Hata enjeksiyonu** — Herhangi bir bite tıklayarak iletim hatası simüle edin
+- 🔍 **Sendrom hesaplama** — XOR tabanlı otomatik sendrom hesabıyla hatalı bit tespit edilir
+- ✅ **Otomatik düzeltme** — Tek bitli hatalar düzeltilir; çift bitli hatalar işaretlenir
+- 📊 **Şekil 5.7 akış diyagramı** — Kod çözme algoritmasını gösteren etkileşimli SVG diyagramı
+- 🔔 **Toast bildirimleri** — Kodlama, hata tespiti ve düzeltme olaylarında anlık geri bildirim
+- 🛡️ **Girdi doğrulama** — Geçersiz girişleri açıklayıcı hata mesajlarıyla engeller
+- 🌙 **Koyu tema** — Uzun çalışma seansları için şık ve göz dostu arayüz
 
-- [Node.js](https://nodejs.org/) v18 or higher
-- npm v9 or higher
+---
 
-### Installation
+## 🚀 Kurulum
+
+### Gereksinimler
+
+- [Node.js](https://nodejs.org/) v18 veya üstü
+- npm v9 veya üstü
+
+### Adımlar
 
 ```bash
-# 1. Clone the repository
+# 1. Depoyu klonlayın
 git clone https://github.com/barisyzici/hamming-code-simulator.git
 
-# 2. Navigate to the project directory
+# 2. Proje dizinine girin
 cd hamming-code-simulator
 
-# 3. Install dependencies
+# 3. Bağımlılıkları yükleyin
 npm install
 
-# 4. Start the development server
+# 4. Geliştirme sunucusunu başlatın
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to use the simulator.
+Tarayıcınızda [http://localhost:5173](http://localhost:5173) adresini açın.
 
-### Build for Production
+### Üretim Derlemesi
 
 ```bash
 npm run build
 ```
 
-The production-ready output will be in the `dist/` directory.
+Derleme çıktısı `dist/` dizininde oluşturulur.
 
-### Deploy to GitHub Pages
+### GitHub Pages'e Dağıtım
 
 ```bash
 npm run deploy
@@ -96,39 +96,39 @@ npm run deploy
 
 ---
 
-## 📐 Hamming Code Theory
+## 📐 Hamming Kodu Teorisi
 
-**Hamming codes** add redundant parity bits to a data word so that errors can be detected and corrected during transmission or storage.
+**Hamming kodları**, iletim veya depolama sırasında hataların tespit edilip düzeltilebilmesi için veri kelimesine fazladan parite bitleri ekler.
 
-### How Many Parity Bits Are Needed?
+### Kaç Parite Biti Gerekir?
 
-Given a data word of **m** bits, the number of required parity bits **r** satisfies:
+**m** bitlik bir veri kelimesi için gereken **r** parite biti sayısı şu koşulu sağlamalıdır:
 
 $$2^r \geq m + r + 1$$
 
-| Data Bits (m) | Parity Bits (r) | Total Codeword Length (m + r) |
+| Veri Biti (m) | Parite Biti (r) | Toplam Kod Kelimesi (m + r) |
 |:---:|:---:|:---:|
 | 8  | 4 | 12 |
 | 16 | 5 | 21 |
 | 32 | 6 | 38 |
 
-### Parity Bit Positions
+### Parite Bit Konumları
 
-Parity bits occupy positions that are **powers of 2** in the codeword (1, 2, 4, 8, 16, …). Each parity bit covers a specific subset of data bit positions determined by the binary representation of those positions.
+Parite bitleri, kod kelimesinde **2'nin kuvveti** olan konumlara yerleştirilir (1, 2, 4, 8, 16, …). Her parite biti, o konumun ikili gösterimine göre belirlenen belirli veri biti konumlarını kapsar.
 
-### Syndrome-Based Error Detection
+### Sendrom Tabanlı Hata Tespiti
 
-When the received codeword is decoded:
+Alınan kod kelimesi çözülürken:
 
-1. Each parity bit is re-computed over its covered positions.
-2. The results form a binary **syndrome** word.
-3. A syndrome of `0` means no error.
-4. A **non-zero syndrome** directly encodes the **position** of the erroneous bit.
-5. A **double-bit error** is flagged via an additional overall parity check (SEC-DED).
+1. Her parite biti kapsadığı konumlar üzerinden yeniden hesaplanır.
+2. Sonuçlar ikili bir **sendrom** sözcüğü oluşturur.
+3. Sendrom `0` ise hata yoktur.
+4. **Sıfır olmayan sendrom**, doğrudan hatalı bitin **konumunu** kodlar.
+5. **Çift bitli hata**, ek bir genel parite denetimiyle (SEC-DED) işaretlenir.
 
 ---
 
-## 🗂️ Project Structure
+## 🗂️ Proje Dosya Yapısı
 
 ```
 hamming-code-simulator/
@@ -136,13 +136,13 @@ hamming-code-simulator/
 │   └── vite.svg
 ├── src/
 │   ├── core/
-│   │   ├── bitUtils.js          # Bit manipulation helpers
-│   │   ├── hammingEncoder.js    # Encoding logic: parity bit placement & calculation
-│   │   └── hammingDecoder.js    # Decoding logic: syndrome computation & correction
-│   ├── App.jsx                  # Main application component & UI
-│   └── main.jsx                 # React entry point
+│   │   ├── bitUtils.js          # Bit işleme yardımcı fonksiyonları
+│   │   ├── hammingEncoder.js    # Kodlama mantığı: parite bit yerleşimi ve hesaplama
+│   │   └── hammingDecoder.js    # Kod çözme mantığı: sendrom hesaplama ve düzeltme
+│   ├── App.jsx                  # Ana uygulama bileşeni ve arayüz
+│   └── main.jsx                 # React giriş noktası
 ├── assets/
-├── hamming-test.mjs             # Standalone test/validation script
+├── hamming-test.mjs             # Bağımsız test / doğrulama betiği
 ├── index.html
 ├── package.json
 ├── vite.config.js
@@ -151,24 +151,24 @@ hamming-code-simulator/
 
 ---
 
-## 🎨 Color Coding Reference
+## 🎨 Renk Kodlaması Referansı
 
-| Color | Role | Description |
+| Renk | Rol | Açıklama |
 |:---:|:---|:---|
-| 🔴 **Red** | Parity Bit | Redundancy bits inserted at power-of-2 positions |
-| 🔵 **Blue** | Data Bit | Original data bits from the user's input |
-| 🟡 **Yellow** | Error Bit | A bit that has been flipped to simulate an error |
-| 🟢 **Green** | Corrected Bit | A bit that was erroneous and has been corrected |
+| 🔴 **Kırmızı** | Parite Biti | 2'nin kuvveti olan konumlara eklenen artıklık bitleri |
+| 🔵 **Mavi** | Veri Biti | Kullanıcının girdiği orijinal veri bitleri |
+| 🟡 **Sarı** | Hatalı Bit | Hata simüle etmek için çevrilen bit |
+| 🟢 **Yeşil** | Düzeltilmiş Bit | Hatalı olduğu tespit edilip düzeltilen bit |
 
 ---
 
-## 🏫 Course Information
+## 🏫 Ders Bilgileri
 
-| Field | Detail |
+| Alan | Detay |
 |:---|:---|
-| **Course** | BLM230 — Computer Architecture |
-| **Topic** | Error Detection and Correction (Hamming Codes) |
-| **Reference** | Patterson & Hennessy, *Computer Organization and Design* — Figure 5.7 |
+| **Ders** | BLM230 — Bilgisayar Mimarisi |
+| **Konu** | Hata Tespiti ve Düzeltme (Hamming Kodları) |
+| **Kaynak** | Patterson & Hennessy, *Computer Organization and Design* — Şekil 5.7 |
 
 ---
 
