@@ -10,12 +10,6 @@
   <a href="https://barisyzici.github.io/hamming-code-simulator/">Canlı Demo</a>
 </p>
 
-<br/>
-
-![Ekran Görüntüsü](screenshot1.png)
-
-<br/>
-
 ---
 
 ## 📖 Hakkında
@@ -23,6 +17,14 @@
 Bu proje, **BLM230 — Bilgisayar Mimarisi** dersi kapsamında geliştirilmiş, **Hamming Tek Hata Düzeltme / Çift Hata Tespit (SEC-DED)** kodlarını görselleştiren eğitici ve etkileşimli bir simülatördür.
 
 İkili veriyi Hamming parite bitleriyle kodlayabilir, herhangi bir konuma bit-flip hatası enjekte edebilir ve **sendrom tabanlı tespit & düzeltme** algoritmasının hatalı biti adım adım nasıl bulup düzelttiğini temiz ve koyu temalı bir arayüzde izleyebilirsiniz.
+
+---
+
+<br/>
+
+![Ekran Görüntüsü](screenshot1.png)
+
+<br/>
 
 ---
 
