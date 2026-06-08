@@ -14,6 +14,10 @@
   <a href="https://barisyzici.github.io/hamming-code-simulator/"><img src="https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-181717?style=for-the-badge&logo=github&logoColor=white" alt="Live Demo"></a>
 </p>
 
+<p align="center">
+  <a href="https://barisyzici.github.io/hamming-code-simulator/">Live Demo</a>
+</p>
+
 <br/>
 
 ![Screenshot](screenshot.png)
@@ -168,6 +172,3 @@ hamming-code-simulator/
 
 ---
 
-<p align="center">
-  <a href="https://barisyzici.github.io/hamming-code-simulator/">Live Demo</a>
-</p>
