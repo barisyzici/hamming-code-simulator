@@ -47,7 +47,7 @@ Bu proje, **BLM230 — Bilgisayar Mimarisi** dersi kapsamında geliştirilmiş, 
   <a href="https://www.youtube.com/watch?v=oh1wg8sWNEA/">Demo Videosu</a>
 </p>
 
-
+---
 
 ## 📐 Hamming Kodu Teorisi
 
