@@ -20,14 +20,6 @@ Bu proje, **BLM230 — Bilgisayar Mimarisi** dersi kapsamında geliştirilmiş, 
 
 ---
 
-<br/>
-
-![Ekran Görüntüsü](screenshot1.png)
-
-<br/>
-
----
-
 ## ✨ Özellikler
 
 - 🧮 **Çoklu genişlik desteği** — 8-bit, 16-bit ve 32-bit veri kelimelerini kodlayın
@@ -40,6 +32,14 @@ Bu proje, **BLM230 — Bilgisayar Mimarisi** dersi kapsamında geliştirilmiş, 
 - 🔔 **Toast bildirimleri** — Kodlama, hata tespiti ve düzeltme olaylarında anlık geri bildirim
 - 🛡️ **Girdi doğrulama** — Geçersiz girişleri açıklayıcı hata mesajlarıyla engeller
 - 🌙 **Koyu tema** — Uzun çalışma seansları için şık ve göz dostu arayüz
+
+---
+
+<br/>
+
+![Ekran Görüntüsü](screenshot1.png)
+
+<br/>
 
 ---
 
