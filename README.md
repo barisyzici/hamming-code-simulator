@@ -12,7 +12,7 @@
 
 <br/>
 
-![Ekran Görüntüsü](screenshot.png)
+![Ekran Görüntüsü](screenshot1.png)
 
 <br/>
 
